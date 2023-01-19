@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+
+#main{
+    background-color: hsl(356, 100%, 66%);
+    padding: 2rem 8rem;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#navbar li{
+    margin: 2rem;
+    color: white;
+}
+
+
+#link{
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.btn{
+    padding: 0.4rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+}
+
+#btn-link-main{
+    text-decoration: none;
+    color: hsl(356, 100%, 66%);
+}
