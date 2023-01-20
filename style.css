@@ -11,6 +11,8 @@ body{
 #main{
     background-color: hsl(356, 100%, 66%);
     padding: 2rem 8rem;
+    border-bottom-left-radius: 8rem;
+
 }
 
 #navbar{
@@ -100,3 +102,6 @@ body{
     color: white;
     text-decoration: none;
 }
+
+
+
