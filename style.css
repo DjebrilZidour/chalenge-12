@@ -104,6 +104,95 @@ body{
 }
 
 
+#second-section{
+    margin: 7rem 0;
+    padding: 0 8rem;
+}
+
+#title-second-section{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#second-section-text{
+    margin-top: 6rem;
+    width: 45%;
+    
+}
+#second-section-text h3{
+    color: black;
+    font-weight: bold;
+
+}
+
+#second-section-text p{
+    margin: 1.5rem 0;
+}
+
+#second-section-elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#second-section-image{
+    width: 41%;
+    margin-top: 1rem;
+}
+
+
+#second-section-image img{
+    width: 121%;
+}
+
+#third-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    background-color: rgb(0, 5, 155);
+}
+
+
+#right-part{
+    width: 40%;   
+}
+
+#right-part h2{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#right-part p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+#fourth-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8rem;
+    margin: 6rem 0;
+}
+
+#img-div{
+    width: 50%;
+}
+
+#img-div img{
+    width: 100%;
+}
+
+#text-div{
+    width: 40%;
+    margin-top: 1rem;
+}
+
+#text-div p{
+    margin: 2rem 0;
+}
+
 
 
 
