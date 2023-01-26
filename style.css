@@ -193,6 +193,41 @@ body{
     margin: 2rem 0;
 }
 
+@media screen and (min-width: 910px) {
+    .mobile-version{
+        display: none;        
+    }
+    
+}
 
+@media screen and (max-width: 908px) {
+
+    .nav-links{
+        display: none;
+    }
+    #navbar{
+        margin-top: 2rem;
+    }    
+    #main{
+        width: 100%;
+        padding: 1rem 1rem ;
+    }
+    #main h1{
+        font-size: 2rem;
+        margin-top: 6rem;
+    }
+    #main button{
+        margin-bottom: 3rem;
+    }
+    .desktop-version{
+        display: none;
+    }
+
+    #third-section-img img{
+        width: 10%;
+    }
+
+
+}
 
 
