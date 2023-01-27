@@ -266,9 +266,36 @@ body{
         text-align: center;
     }
 
-    #third-section-img img{
-        width: 10%;
+    #third-section{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        padding: 1rem ;
+        border-top-right-radius: 7rem;
+        border-bottom-left-radius: 7rem;
     }
+
+    #third-section-img img{
+        width: 100%;
+    }
+
+    #right-part{
+        width: 100%;
+        padding-bottom: 6rem;
+        text-align: center;
+
+    }
+    #right-part h2{
+        font-size: 2rem;
+    }
+
+    #right-part p{
+        line-height: 1.9rem;
+    }
+
+
+
+    
 
 
 
