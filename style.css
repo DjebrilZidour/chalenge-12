@@ -1,82 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Roboto Mono', monospace;
 
 }
-#main{
+
+#main {
     background-color: hsl(356, 100%, 66%);
     padding: 2rem 8rem;
     border-bottom-left-radius: 8rem;
 
 }
 
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
-#navbar ul{
+#navbar ul {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-#navbar li{
+#navbar li {
     margin: 2rem;
     color: white;
 }
 
 
-#link{
+#link {
     color: white;
     padding-right: 1rem;
     text-decoration: none;
 }
-.btn{
+
+.btn {
     padding: 0.4rem 2rem;
     border-radius: 1rem;
     border: none;
     background-color: white;
 }
 
-#btn-link-main{
+#btn-link-main {
     text-decoration: none;
     color: hsl(356, 100%, 66%);
 }
 
-#main-text{
+#main-text {
     margin-bottom: 5rem;
 }
-#main-text h1{
+
+#main-text h1 {
     color: white;
     font-size: 3rem;
     text-align: center;
     margin-top: 4rem;
 }
 
-#main-text p{
+#main-text p {
     color: white;
     text-align: center;
     margin-top: 1.5rem;
 }
 
-#button{
+#button {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
 }
 
-#btn-main-1{
+#btn-main-1 {
     padding: 0.4rem 1.5rem;
     border-radius: 1rem;
     border: none;
@@ -85,7 +89,7 @@ body{
 
 }
 
-#btn-main-2{
+#btn-main-2 {
     background-color: hsl(356, 100%, 66%);
     padding: 0.4rem 1.5rem;
     border-radius: 1rem;
@@ -93,60 +97,61 @@ body{
 
 }
 
-#btn-link-main-text-1{
+#btn-link-main-text-1 {
     color: hsl(356, 100%, 66%);
     text-decoration: none;
 }
 
-#btn-link-main-text-2{
+#btn-link-main-text-2 {
     color: white;
     text-decoration: none;
 }
 
 
-#second-section{
+#second-section {
     margin: 7rem 0;
     padding: 0 8rem;
 }
 
-#title-second-section{
+#title-second-section {
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem 0;
 }
 
-#second-section-text{
+#second-section-text {
     margin-top: 6rem;
     width: 45%;
-    
+
 }
-#second-section-text h3{
+
+#second-section-text h3 {
     color: black;
     font-weight: bold;
 
 }
 
-#second-section-text p{
+#second-section-text p {
     margin: 1.5rem 0;
 }
 
-#second-section-elements{
+#second-section-elements {
     display: flex;
     justify-content: space-between;
 }
 
 
-#second-section-image{
+#second-section-image {
     width: 41%;
     margin-top: 1rem;
 }
 
 
-#second-section-image img{
+#second-section-image img {
     width: 121%;
 }
 
-#third-section{
+#third-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -155,90 +160,96 @@ body{
 }
 
 
-#right-part{
-    width: 40%;   
+#right-part {
+    width: 40%;
 }
 
-#right-part h2{
+#right-part h2 {
     margin-bottom: 2rem;
     color: white;
 }
 
-#right-part p{
+#right-part p {
     color: white;
     font-size: 1.2rem;
 }
 
-#fourth-section{
+#fourth-section {
     display: flex;
     justify-content: space-between;
     padding: 0 8rem;
     margin: 6rem 0;
 }
 
-#img-div{
+#img-div {
     width: 50%;
 }
 
-#img-div img{
+#img-div img {
     width: 100%;
 }
 
-#text-div{
+#text-div {
     width: 40%;
     margin-top: 1rem;
 }
 
-#text-div p{
+#text-div p {
     margin: 2rem 0;
 }
 
 @media screen and (min-width: 910px) {
-    .mobile-version{
-        display: none;        
+    .mobile-version {
+        display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 908px) {
 
-    .nav-links{
+    .nav-links {
         display: none;
     }
-    #navbar{
+
+    #navbar {
         margin-top: 2rem;
-    }    
-    #main{
-        width: 100%;
-        padding: 1rem 1rem ;
     }
-    #main h1{
+
+    #main {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    #main h1 {
         font-size: 2rem;
         margin-top: 6rem;
     }
-    #main button{
+
+    #main button {
         margin-bottom: 3rem;
     }
-    .desktop-version{
+
+    .desktop-version {
         display: none;
     }
 
 
-    #second-section{
+    #second-section {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0 1rem;
-        
-  
+
+
     }
 
-    #title-second-section{
+    #title-second-section {
         font-size: 2.5rem;
 
     }
-    #second-section-elements{
+
+    #second-section-elements {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
@@ -246,59 +257,76 @@ body{
 
     }
 
-    #second-section-elements :last-child{
+    #second-section-elements :last-child {
         width: 100%;
     }
 
-    #second-section-text{
+    #second-section-text {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #second-section-text h3{
+    #second-section-text h3 {
         font-size: 2rem;
         text-align: center;
     }
 
-    #second-section-text p{
+    #second-section-text p {
         text-align: center;
     }
 
-    #third-section{
+    #third-section {
         flex-direction: column;
         width: 100%;
         padding: 0;
-        padding: 1rem ;
+        padding: 1rem;
         border-top-right-radius: 7rem;
         border-bottom-left-radius: 7rem;
     }
 
-    #third-section-img img{
+    #third-section-img img {
         width: 100%;
     }
 
-    #right-part{
+    #right-part {
         width: 100%;
         padding-bottom: 6rem;
         text-align: center;
 
     }
-    #right-part h2{
+
+    #right-part h2 {
         font-size: 2rem;
     }
 
-    #right-part p{
+    #right-part p {
         line-height: 1.9rem;
+    }
+
+    #fourth-section {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    #img-div {
+        width: 100%;
+    }
+
+    #text-div {
+        width: 100%;
     }
 
 
 
-    
+
 
 
 
 }
-
-
